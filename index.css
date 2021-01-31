@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
 }
 * {
   font-family: "Montserrat", sans-serif;
@@ -22,7 +21,7 @@ body {
 .game {
   background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
   background: linear-gradient(to right, #ffdde1, #ee9ca7);
-  min-width: 40vw;
+  min-width: 30vw;
   height: 100vh;
   border-radius: 10px;
   box-shadow: 1px 1px 1px gray;
@@ -64,11 +63,23 @@ body {
   height: 5vh;
 }
 #board {
-  padding: 5px;
-  height: 55vh;
+  padding: 10px;
+  min-height: 50vh;
   background-color: black;
-  border-radius: 5px;
+  border-radius: 10px;
 }
-#result {
-  padding: 3px;
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.selected {
+  background-color: #00416a;
 }
