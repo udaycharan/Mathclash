@@ -14,12 +14,8 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background: #00416a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #e4e5e6,
-    #00416a
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: #00416a;
+  background: -webkit-linear-gradient(to right, #e4e5e6, #00416a);
   background: linear-gradient(to right, #e4e5e6, #00416a);
 }
 
